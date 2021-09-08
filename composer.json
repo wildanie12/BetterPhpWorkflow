@@ -1,4 +1,15 @@
 {
+    "name": "wildanie/better-php-workflow",
+    "description": "Ini adalah project eksperimen saya untuk mempelajari continuous integration pada PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Badar Wildanie",
+            "email": "badar.serpent@gmail.com"
+        }
+    ],
+    "require": {},
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.6"
     },
