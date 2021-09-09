@@ -35,3 +35,7 @@ jobs:
 
     - name: Run phpcs
       run: composer run-script phpcs
+      
+    - name: Check PHP syntax errors
+      uses: overtrue/phplint@3.0.3
+
