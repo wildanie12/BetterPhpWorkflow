@@ -14,7 +14,7 @@
         "phpunit/phpunit": "^9.5"
     },
     "scripts": {
-        "phpcs": "phpcs . --ignore=*/vendor/*,*/tests/* --standard=PSR12 --colors",
+        "phpcs": "phpcs . --ignore=*/vendor/*,*/tests/* --standard=PSR12 --warning-severity=0 --colors",
         "phpcbf": "phpcbf . --ignore=*/vendor/*,*/tests/* --standard=PSR12"
     }
 }

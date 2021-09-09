@@ -30,6 +30,7 @@
  * @param mixed $key Key array
  * @param Array $array Data array
  */
+// phpcs:disable
 function search_by_key($key, $array)
 {
     // Melakukan perulangan semua data yang ada dalam array
@@ -38,15 +39,16 @@ function search_by_key($key, $array)
         if (strtolower($key) === strtolower($array_key)) {
             // Jika ditemukan maka kembalikan key beserta value-nya
             return [$array_key => $array_value];
-
+            
             // Kemudian hentikan perulangan
             break;
         }
     }
-
+    
     // Jika data tidak ditemukan maka kembalikan array kosong
     return [];
 }
+// phpcs:enable
 
 
 
