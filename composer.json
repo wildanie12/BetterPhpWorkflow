@@ -15,6 +15,7 @@
     },
     "scripts": {
         "phpcs": "phpcs . --ignore=*/vendor/*,*/tests/* --standard=PSR12 --warning-severity=0 --colors",
-        "phpcbf": "phpcbf . --ignore=*/vendor/*,*/tests/* --standard=PSR12"
+        "phpcbf": "phpcbf . --ignore=*/vendor/*,*/tests/* --standard=PSR12",
+        "phpunit": "phpunit tests/"
     }
 }
